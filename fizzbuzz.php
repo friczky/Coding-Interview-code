@@ -2,14 +2,14 @@
 <?php
 for ($i = 1; $i <= 20; $i++) {
     if ($i % 3 == 0 && $i % 5 == 0) {
-        echo "FizzBuzz";
+        print "FizzBuzz";
     } elseif ($i % 3 == 0) {
-        echo "Fizz";
+        print "Fizz";
     } elseif ($i % 5 == 0) {
-        echo "Buzz";
+        print "Buzz";
     } else {
-        echo $i;
+        print $i;
     }
-    // echo "<br>";
-    echo ",";
+    // print "<br>";
+    print ",";
 }
